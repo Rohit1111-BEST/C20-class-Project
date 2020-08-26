@@ -16,15 +16,23 @@ weight=random(400,1500);
 car=createSprite(50,200,50,50);
 wall=createSprite(1500,200,60,height/2);
 car.velovityX = speed;
-car.velocityX = 3;
 
 
 }
 
-if(car.isTouching(wall)){
-  car.velocityX=0;
-  }
-if(wall.x=car.x < (car.width+wall.width)/2)
+
+
+
+
+
+
+
+
+
+function draw() {
+  background(80,80,80);  
+
+  wall.x-car.x
 {
 car.velocity=0;
 var deformation=0.5 * weight * speed* speed/22509;
@@ -43,10 +51,5 @@ car.shapeColor=color(0,255,0)
 
 }
 
-
-
-
-function draw() {
-  background(80,80,80);  
   drawSprites();
 }
