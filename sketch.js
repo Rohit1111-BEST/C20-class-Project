@@ -15,8 +15,6 @@ wall=createSprite(750,200,60,height/2);
 function draw() {
   background(80,80,80);
   car.velocityX = speed;
- 
-  wall.x-car.x <(car.width+wall.width)/2;
 
 if(car.x-wall.x<car.width/2+wall.width/2){
   
